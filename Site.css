@@ -3,7 +3,7 @@ body, html {
     height: 100%;
 }
 
-.parallax-one, .parallax-two, .parallax-four{
+.parallax-one, .parallax-two, .parallax-four, .parallax-five, .parallax-six{
     /* Create the parallax scrolling effect */
     position: relative;
     opacity: 0.65;
@@ -44,6 +44,20 @@ body, html {
 }
 
 .parallax-four{
+    /* The image used */
+    background-image: url("Pictures/GoofyCouple.jpg");
+    /* Set a specific height */
+    min-height: 800px;
+}
+
+.parallax-five{
+    /* The image used */
+    background-image: url("Pictures/Titty.jpg");
+    /* Set a specific height */
+    min-height: 800px;
+}
+
+.parallax-six{
     /* The image used */
     background-image: url("Pictures/BeachBitch.jpg");
     /* Set a specific height */
